@@ -1,6 +1,9 @@
 """
 https://platform.openai.com/settings/organization/api-keys
 uv run code/src/create_stressed_sentences.py ./data/200_stressed.txt output.json
+
+todo: something in the json format incorrect
+todo: cost calculation is incorrect
 """
 from openai.types.chat import ChatCompletion
 from phonikud import lexicon

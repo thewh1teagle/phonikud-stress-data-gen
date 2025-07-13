@@ -4,8 +4,8 @@ from phonikud import lexicon
 MODELS = {
     "gpt-4o-mini": {
         "cost": {
-            "input": 0.000000002,  # 2 USD / 1,000,000 tokens = 0.000000002 per token
-            "output": 0.000000008,  # 8 USD / 1,000,000 tokens = 0.000000008 per token
+            "input": 0.00000015,  # $0.40 / 1,000,000 tokens
+            "output": 0.00000060,  # $1.60 / 1,000,000 tokens
         },
     },
 }
