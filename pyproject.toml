@@ -1,0 +1,19 @@
+[project]
+name = "phonikud-stress-data-gen"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "basedpyright>=1.30.1",
+    "openai>=1.95.1",
+    "pandas>=2.3.1",
+    "phonikud",
+    "phonikud-onnx>=1.0.4",
+    "python-dotenv>=1.1.1",
+    "requests>=2.32.4",
+    "tqdm>=4.67.1",
+]
+
+[tool.uv.sources]
+phonikud = { git = "https://github.com/thewh1teagle/phonikud" }
