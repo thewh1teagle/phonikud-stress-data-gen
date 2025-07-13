@@ -7,3 +7,4 @@ venv/
 *.txt
 !data/*.txt
 .env
+*.onnx

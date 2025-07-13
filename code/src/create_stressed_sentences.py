@@ -4,6 +4,7 @@ uv run code/src/create_stressed_sentences.py ./data/200_stressed.txt output.json
 
 todo: something in the json format incorrect
 todo: cost calculation is incorrect
+todo: fix duplicates for some reason
 """
 from openai.types.chat import ChatCompletion
 from phonikud import lexicon
